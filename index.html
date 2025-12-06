@@ -1,67 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adarsh Yadav | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adarsh Yadav — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body bgcolor="aqua">
-  <header>
-    <nav class="navbar">
-      <h1 class="logo">Adarsh Yadav</h1>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="" class="btn">Resume</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="about" class="section">
-    <div class="about-text">
-      <h2>👋 About Me</h2>
-      <p>
-        Hi, I'm <strong>Adarsh Shrawan Kumar Yadav</strong> — an aspiring Web Development,interested in Cyber Security, Generative AI, and Data Analyst.
-      </p>
+<body>
+  <div class="wrap">
+
+    <!-- HEADER -->
+    <header>
+      <div class="brand">
+        <div class="logo">AY</div>
+        <div>
+          <h1>Adarsh Yadav</h1>
+          <p></p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects" target="-main">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="resume-btn" href="/Adarsh Yadav Resu-me.pdf" target="_blank">Download Resume</a>
+
+
+      </nav>
+    </header>
+
+    <!-- MARQUEE -->
+    <div class="marquee-wrap">
+      <marquee scrollamount="11" behavior="scroll" direction="left">
+        🚀 Aspiring Frontend Developer | • HTML5 • CSS3 • JavaScript • Responsive Design | Learning Web development!!!
+      </marquee>
     </div>
-  </section>
 
-  <section id="skills" class="section">
-    <h2>💻 Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-card">HTML5</div>
-      <div class="skill-card">CSS3</div>
-      <div class="skill-card">Basic Data Structures</div>
-      <div class="skill-card">Cyber Security</div>
-      <div class="skill-card">Generative AI</div>
-    </div>
-  </section>
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- LEFT SIDE -->
+      <div>
+        <!-- HERO -->
+        <section class="hero">
+          <div class="left">
+            <h2>Hi, I'm Adarsh</h2>
+            <p>
+             Aspiring Frontend Developer. I create responsive websites and explore Data Analysis, Cybersecurity, and Generative AI.
 
-  <section id="projects" class="section">
-    <h2>🚀 Projects</h2>
-    <div class="project-card">
-      <h3>Personal Portfolio Website</h3>
-      <p>
-        A responsive single-page website built using HTML, CSS, and JavaScript.
-        Showcases skills, projects, and contact details.  
-        (This page itself is the project!)
-      </p>
-      <a href="#" class="btn">View Project</a>
-    </div>
-  </section>
+            </p>
+            <a class="cta" href="#">Contact Me</a>
+          </div>
+          
+        </section>
+        <!-- ABOUT -->
+        <section id="about">
+          <h3>About Me</h3>
+          <p>
+           I am working towards becoming a skilled Frontend Developer, focused on building clean, user-friendly, and responsive web interfaces using HTML, CSS, and JavaScript. Along with web development, I’ve completed certified programs in Data Analysis, Cybersecurity, Generative AI, and Automation, strengthening my overall technical foundation.
+          </p>
+          <div class="resume-section">
+  <h3>Resume</h3>
+  <p>You can view or download my resume here:</p>
+  <a class="resume-btn" href="/Adarsh Yadav Resu-me.pdf" target="_blank">View Resume</a>
+</div>
+        </section>
+        <!-- PROJECTS -->
+        <section id="projects">
+          <h3>Projects</h3>
+          <div class="projects">
+            <div class="card">
+              <h3>Portfolio Website</h3>
+              <p>An elegant responsive website created using HTML & CSS.</p>
+            </div>
+            <div class="card">
+              <h3> Kisan Setu – AI-Based Multilingual Chatbot</h3>
+              <p>An AI-powered multilingual chatbot built to help farmers with crop details, fertilizers, mandi rates, and weather updates. Includes rule-based NLP, translation, and a clean mobile UI.Tech: HTML5, CSS3, JavaScript, JSON, NLP (Rule-based)</p>
+            </div>
+            </div>
+          </div>
+        </section>
+      </div>
 
-  <section id="contact" class="section">
-    <h2>📬 Contact Me</h2>
-    <p>Email: <a href="mailto: adarshshrawan5@gmail.com ">adarshshrawan5@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/adarshshrawan5" target="_blank">GitHub Link 🔗</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/adarshyadav1411" target="_blank"> Linkedin Profile 🔗</a></p>
-  </section>
+      <!-- RIGHT SIDE -->
+      <aside>
+        <!-- SKILLS -->
+        <section id="skills">
+          <h3>Skills</h3>
+          <div class="skills">
+            <span class="skill">HTML5</span>
+            <span class="skill">CSS3</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Generative AI</span>
+            <span class="skill">Cybersecurity</span>
+          </div>
+        </section>
 
-  <footer>
-    <p>© 2025 Adarsh Yadav. All rights reserved.</p>
-  </footer>
+        <!-- CONTACT -->
+        <section id="contact">
+          <h3>Contact</h3>
+          <div class="card">
+            <p>Email: <a href="mailto:adarshshrawan5@gamil.com">adarshshrawan5@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/adarshshrawan5" target="_blank">GitHub Link </a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/adarshyadav1411" target="_blank">linkedin.com/in/yourusername</a></p>
+          </div>
+
+          <div class="card">
+            <div id="toast">Form Submitted Successfully!</div>
+            <form id="contactForm" onsubmit="showToast(); return false;">
+            <form onsubmit="alert('Form Submitted Successfully!'); return false;">
+              <input type="text" placeholder="Your name" />
+              <input type="email" placeholder="Your email" />
+              <textarea placeholder="Message"></textarea>
+              <button class="cta" type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© <span id="year"></span> Adarsh Yadav • Made with ❤ </p>
+    </footer>
+  </div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<script>
+function showToast() {
+  let toast = document.getElementById("toast");
+  toast.classList.add("show");
+
+  // Remove toast after animation
+  setTimeout(() => {
+    toast.classList.remove("show");
+  }, 3000);
+
+  // Clear form fields after submit
+  document.getElementById("contactForm").reset();
+}
+</script>
+
 </body>
 </html>
