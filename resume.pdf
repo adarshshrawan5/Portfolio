@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adarsh Yadav - Resume</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+    h1, h2 { color: #333; }
+    .section { margin-bottom: 25px; }
+    ul { margin: 0; padding-left: 20px; }
+  </style>
+</head>
+<body>
+
+<h1>Adarsh Yadav</h1>
+<p>
+  <strong>Email:</strong> Adarshshrawan5@gmail.com<br>
+  <strong>Phone:</strong> +91-7715804452<br>
+  <strong>Location:</strong> Mumbai, Maharashtra, India<br>
+  <strong>Links:</strong> LinkedIn | GitHub | Portfolio
+</p>
+
+<hr>
+
+<div class="section">
+  <h2>Skills</h2>
+
+  <h3>Programming Languages</h3>
+  <ul>
+    <li>HTML5</li>
+    <li>CSS</li>
+    <li>Python (Basics)</li>
+    <li>C (Basics)</li>
+  </ul>
+
+  <h3>Databases</h3>
+  <ul>
+    <li>MySQL (Basics)</li>
+  </ul>
+
+  <h3>Frameworks & Tools</h3>
+  <ul>
+    <li>Git</li>
+    <li>VS Code</li>
+    <li>Bootstrap (Basics)</li>
+    <li>GitHub</li>
+  </ul>
+
+  <h3>Core CS Concepts</h3>
+  <ul>
+    <li>Data Structures (Basics)</li>
+    <li>DBMS Basics</li>
+  </ul>
+</div>
+
+<hr>
+
+<div class="section">
+  <h2>Education</h2>
+
+  <p><strong>Shree L.R. Tiwari College of Engineering, Mumbai</strong><br>
+  B.E – IT | CGPA (FE): 7.76<br>
+  <em>Aug 2024 – Present</em></p>
+
+  <p><strong>Royal English High School & Jr. College, Mumbai</strong><br>
+  XII (HSC) | 81.67%<br>
+  <em>Feb 2024</em></p>
+
+  <p><strong>Royal English High School, Mumbai</strong><br>
+  X (SSC) | 80.80%<br>
+  <em>Mar 2022</em></p>
+</div>
+
+<hr>
+
+<div class="section">
+  <h2>Projects</h2>
+
+  <h3>Portfolio Website – Personal Full Stack Portfolio</h3>
+  <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript, Responsive UI, Modern Web Design</p>
+  <ul>
+    <li>Developed a personal portfolio website showcasing skills, certifications, and contact info.</li>
+    <li>Implemented smooth navigation, animations, and fully responsive layouts.</li>
+  </ul>
+
+  <h3>Kisan Setu – AI-Based Multilingual Chatbot</h3>
+  <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript, JSON, NLP, Multilingual Support</p>
+  <ul>
+    <li>Designed a multilingual chatbot for farmers regarding crops, fertilizers, and mandi rates.</li>
+    <li>Added rule-based responses and multiple Indian language support.</li>
+    <li>Optimized for mobile devices with instant query processing.</li>
+  </ul>
+</div>
+
+<hr>
+
+<div class="section">
+  <h2>Certifications & Achievements</h2>
+  <ul>
+    <li>Smart India Hackathon – Participant (Sept 2025)</li>
+    <li>LCAT – LabMentix (Nov 2025)</li>
+    <li>Introduction to Generative AI – Google Cloud (Nov 2025)</li>
+    <li>Introduction to Cyber Security – Simplilearn/Tata Forage (Nov 2025)</li>
+    <li>Data Analyst 101 – Microsoft (Nov 2025)</li>
+    <li>ChatGPT for Automation – Smarted Innovations (Nov 2025)</li>
+    <li>HTML5 & CSS Basics – Self-Learning</li>
+  </ul>
+</div>
+
+</body>
+</html>
 
